@@ -49,12 +49,12 @@ export default function Home() {
                 <h3 className="font-black | text-darkBlue">Annual Plan</h3>
                 <label>$59.99/year</label>
               </div>
-              <a className="font-bold | underline | cursor-pointer | text-brightBlue | ml-6">Change</a>
+              <a className="font-bold | underline | cursor-pointer | text-brightBlue | ml-6 || hover:text-opacity-60">Change</a>
             </div>
           </section>
-          <footer>
-            <a>Proceed to Payment</a>
-            <a>Cancel Order</a>
+          <footer className="flex | flex-col | justify-center | items-center | font-bold | text-sm | w-full | mb-3 | gap-2">
+            <a className="bg-brightBlue | text-veryPaleBlue | p-3 | rounded-lg | w-[80%] | text-center | cursor-pointer || hover:bg-opacity-60">Proceed to Payment</a>
+            <a className="text-desaturatedBlue | rounded-lg | text-center | my-2 | select-none | cursor-pointer || hover:text-darkBlue">Cancel Order</a>
           </footer>
         </article>
       </main>
